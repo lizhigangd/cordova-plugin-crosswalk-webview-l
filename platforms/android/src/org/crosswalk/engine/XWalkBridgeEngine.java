@@ -146,7 +146,7 @@ public class XWalkBridgeEngine implements CordovaWebViewEngine {
         }
 
         /* Xwalk will make a web view with chrome version 55, so if the systemWebView has a higher version, it should be used */
-        XWalkBridgeEngine.cachedShouldMakeXwalkWebView = systemWebViewVersion < 55;
+        XWalkBridgeEngine.cachedShouldMakeXwalkWebView = systemWebViewVersion < 59;
         return XWalkBridgeEngine.cachedShouldMakeXwalkWebView;
     }
 }
